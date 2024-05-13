@@ -1,0 +1,41 @@
+
+.footer-all{
+    margin-top: 15em;
+    background-color: #542583;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.store_logo{
+    width: 50px;
+}
+.social-media{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    
+}
+
+.creator2 li{
+
+    list-style-type: none;
+    margin-bottom: 1em;
+}
+
+
+.creator2{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:#f8e964;
+    align-items: center;
+}
+
+.creator2 li:hover{
+ color: #998a01;
+}
