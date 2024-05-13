@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+.navbar_top{
+    display: flex;
+    justify-content: space-around;
+    background-color: #542583;
+}
+.title_navbar{
+    display: flex;
+    flex-direction: column;
+    color: #FDB828;    
+}
+.title_navbar h1 {
+    margin-bottom: 20px; 
+    margin-top: 5px;
+}
+.categories{
+    
+    display: flex;
+    justify-content: space-evenly;
+    font-size: small;
+
+}
+.categories li{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}

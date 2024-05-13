@@ -1,16 +1,21 @@
-import Biography from './components/biography/biography'
+
+import Biography from "./components/biography/biography";
+import Navbar from "./components/header/Navbar";
+import Teamlist from "./components/team/Teamlist";
+import "./App.css";
 import Footer from './components/Footer/Footer'
-import './App.css'
+
+
 
 function App() {
-
-
   return (
     <div>
-    <Biography />
+      <Navbar />
+      <Biography />
+      <Teamlist />
     <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
