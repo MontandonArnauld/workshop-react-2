@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    background-color:#fff6e2;
+  }
+
+.bio-all{
+    margin-top: 1em;
+    align-items: center;
+}
+
+.photo-info{
+    display: flex;
+    margin-bottom: 2em;
+}
+
+.banner-contain{
+    display: flex;
+    justify-content: center;
+}
+.banner-photo{
+
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+.title_lakers h2{
+    border-radius: 5%;
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    color: #542583;
+    font-weight: 700;
+   
+}
+.title_lakers{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.title-para{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+justify-content: center;
+}
+
+.bio-photo{
+    margin-left: 1em;
+    width: 40%;
+    height: 30%;
+    margin-top: 1.5em;
+    border-radius: 10%;
+}
+.paragraph{
+    padding:1em;
+    border-radius: 7%;
+    background-color: #542583;
+    color:#f8e964;
+    font-size: 1.5em;
+    text-align: start;
+    width: 100%;
+    margin-right: 1em;
+
+}
