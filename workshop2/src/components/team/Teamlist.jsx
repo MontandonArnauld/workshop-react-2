@@ -74,6 +74,7 @@ function Teamlist() {
 
   return (
     <div>
+      <h2>TEAM</h2>
       {playersList.map((player) => (
         <div key={player.id}>
           <img src={player.image} alt={player.name} />
